@@ -1,0 +1,35 @@
+{
+  "name": "nodepkg",
+  "version": "1.0.0",
+  "description": "How To Article: Create Node.js Package in TypeScript",
+  "main": "dist/index.js",
+  "types": "./dist/types/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist && tsc",
+    "prepublish": "rm -rf dist && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syniol/node-pkg-ts.git"
+  },
+  "private": false,
+  "keywords": [
+    "node.js",
+    "typescript",
+    "package",
+    "npm",
+    "yarn",
+    "shared",
+    "library"
+  ],
+  "author": "Hadi Tajallaei <hadi@syniol.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/syniol/node-pkg-ts/issues"
+  },
+  "homepage": "https://github.com/syniol/node-pkg-ts#readme",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
